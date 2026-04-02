@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:context="com.adsv2.ads.control.sdk.activity.ThreeActivity">
+
+    <com.adssdkmanager.ads_manager.ShowNativeAds
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        app:ads_type="ads_native_big"/>
+
+    <TextView
+        android:onClick="showNativeBannerMid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Show Native Banner Mid"
+        android:background="@drawable/selected_bg"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:fontFamily="@font/font_medium" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.adssdkmanager.ads_manager.ShowNativeAds
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:ads_type="ads_banner"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

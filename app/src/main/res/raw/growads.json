@@ -1,0 +1,88 @@
+{
+  "STATUS": true,
+  "MSG": "",
+  "APP_SETTINGS": {
+    "updateAppDialogStatus": 0,
+    "versionCode": "0",
+    "redirectOtherAppStatus": 0,
+    "redirectUrl": "",
+    "dialogBeforeAdShow": 0,
+    "adShowStatus": 1,
+    "howShowAd": 0,
+    "isAdPreload_ins": 0,
+    "isAdPreload_nb": 0,
+    "adPlatformSequence": "Admob",
+    "mainClickCntSwAd": 0,
+    "innerClickCntSwAd": 0,
+    "backClickCntSwAd": 0,
+    "nativeClickCntSwAd": 0,
+    "bannerlickCntSwAd": 0
+  },
+  "PLACEMENT": {
+    "Link_Ad": {
+      "ad_showAdStatus": 0,
+      "OtherId1": "",
+      "OtherId2": "",
+      "Link1": "",
+      "Link2": "",
+      "AdLogo1": "",
+      "AdLogo2": "",
+      "AdText1": "",
+      "AdText2": "",
+      "AdBannerP1": "",
+      "AdBannerP2": "",
+      "AdBannerH1": "",
+      "AdBannerH2": "",
+      "Description1": "",
+      "Description2": "",
+      "AdGif1": "",
+      "AdGif2": ""
+    },
+    "StartApp": {
+      "ad_showAdStatus": 0,
+      "AppID": "",
+      "OtherId1": "",
+      "OtherId2": ""
+    },
+    "Facebook": {
+      "ad_showAdStatus": 0,
+      "AppID": "",
+      "Banner1": "",
+      "Banner2": "",
+      "Interstitial1": "",
+      "Interstitial2": "",
+      "Native1": "",
+      "Native2": "",
+      "RewardedVideo1": "",
+      "RewardedVideo2": "",
+      "OtherId1": "",
+      "OtherId2": ""
+    },
+    "Admob": {
+      "ad_showAdStatus": 1,
+      "AppID": "",
+      "Banner1": "\/6499\/example\/banner",
+      "Banner2": "\/6499\/example\/banner",
+      "Interstitial1": "\/6499\/example\/interstitial",
+      "Interstitial2": "\/6499\/example\/interstitial",
+      "Native1": "\/6499\/example\/native",
+      "Native2": "\/6499\/example\/native",
+      "RewardedVideo1": "",
+      "RewardedVideo2": "",
+      "Appopen1": "\/6499\/example\/app-open",
+      "Appopen2": "\/6499\/example\/app-open",
+      "OtherId1": "",
+      "OtherId2": ""
+    }
+  },
+  "MORE_APP": [],
+  "EXTRA_DATA": {
+    "startscreen": "true",
+    "BASE_HOST": "https:\/\/d2isj403unfbyl.cloudfront.net",
+    "BASE_CARRIER_ID": "touchvpn",
+    "IsVpn": "true",
+    "vpn_option": "true",
+    "is_first": "true",
+    "more_activity": "true"
+  }
+}

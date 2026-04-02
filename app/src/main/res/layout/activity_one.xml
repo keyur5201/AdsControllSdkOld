@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomN">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.adssdkmanager.ads_manager.ShowQurekaAds
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="10dp"
+                    app:ads_folder="gif" />
+
+                <com.adssdkmanager.ads_manager.ShowQurekaAds
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="10dp"
+                    app:ads_folder="gif" />
+
+                <com.adssdkmanager.ads_manager.ShowQurekaAds
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="10dp"
+                    app:ads_folder="icon_square" />
+
+                <com.adssdkmanager.ads_manager.ShowQurekaAds
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="10dp"
+                    app:ads_folder="icon_square" />
+
+            </LinearLayout>
+
+            <com.adssdkmanager.ads_manager.ShowQurekaAds
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                app:ads_folder="media_image"/>
+
+            <com.adssdkmanager.ads_manager.ShowNativeAds
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="5dp"
+                app:ads_type="ads_native_big"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp" />
+
+            <com.adssdkmanager.ads_manager.ShowNativeAds
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="5dp"
+                app:ads_type="ads_native_big"
+                app:ads_compulsory="facebook"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="2dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/selected_bg"
+                android:fontFamily="@font/font_medium"
+                android:gravity="center"
+                android:onClick="showNativeBanner"
+                android:text="Show Native Banner"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/selected_bg"
+                android:fontFamily="@font/font_medium"
+                android:gravity="center"
+                android:onClick="showNativeSmall"
+                android:text="Show Native Small"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/oneB"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/selected_bg"
+                    android:fontFamily="@font/font_bold"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/twoB"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/unselected_bg"
+                    android:fontFamily="@font/font_bold"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/threeB"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/unselected_bg"
+                    android:fontFamily="@font/font_bold"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/selected_bg"
+                android:fontFamily="@font/font_medium"
+                android:gravity="center"
+                android:onClick="showNativeRecycler"
+                android:text="Show Native Recycler"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/selected_bg"
+                android:fontFamily="@font/font_medium"
+                android:gravity="center"
+                android:onClick="showNativeGrid"
+                android:text="Show Native Grid"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.adssdkmanager.ads_manager.ShowNativeAds
+        android:id="@+id/bottomN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:ads_type="ads_banner" />
+
+</RelativeLayout>

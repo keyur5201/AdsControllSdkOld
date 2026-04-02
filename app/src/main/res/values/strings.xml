@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AdsSdk</string>
+    <string name="vpn_on">VPN ON</string>
+    <string name="vpn_off">VPN OFF</string>
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_close">drawer close</string>
+    <string name="connect">Connect</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connection_close_confirm">Would you like to cancel the current VPN Connection?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+<!--    us1-->
+<!--    ca1-->
+<!--    ca2-->
+<!--    fr1-->
+<!--    fr2-->
+<!--    se1-->
+<!--    se2-->
+<!--    ru1-->
+<!--    ru2-->
+<!--    ua1-->
+<!--    ua2-->
+</resources>

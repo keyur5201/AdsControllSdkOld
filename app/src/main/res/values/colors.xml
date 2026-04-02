@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+<!--    &lt;!&ndash;    Rating Dialog&ndash;&gt;-->
+<!--    <color name="rd_bg_color">#FAFAFA</color>-->
+<!--    <color name="rd_view_bg_color">#E4E4E4</color>-->
+<!--    <color name="rd_txt_color">#3A3A3A</color>-->
+<!--    <color name="rd_txt_color2">#787878</color>-->
+<!--    <color name="rd_btn_txt_color">#1C92AF</color>-->
+
+<!--    &lt;!&ndash;    Internet Dialog&ndash;&gt;-->
+<!--    <color name="in_dark_grey">#3C3C3C</color>-->
+<!--    <color name="in_dark_grey2">#5E5E5E</color>-->
+<!--    <color name="in_light_grey">#E1E1E1</color>-->
+<!--    <color name="in_sky_blue">#20B3B3</color>-->
+<!--    <color name="in_red">#E11313</color>-->
+<!--    <color name="in_green">#22AF24</color>-->
+
+<!--    <color name="ads_btn_bg">#147DE3</color>-->
+<!--    <color name="ads_bg_color">#ffffff</color>-->
+<!--    <color name="ads_attribution_bg">@android:color/black</color>-->
+<!--    <color name="ads_attribution_txt">@android:color/white</color>-->
+<!--    <color name="ads_cta_txt_color">@android:color/white</color>-->
+<!--    <color name="ads_all_color">@android:color/black</color>-->
+<!--    <dimen name="ads_frame_corner">5dp</dimen>-->
+<!--    <dimen name="ads_frame_elevation">2dp</dimen>-->
+</resources>

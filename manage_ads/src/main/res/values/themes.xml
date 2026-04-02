@@ -1,0 +1,24 @@
+<resources>
+    <style name="AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">@color/ads_attribution_txt</item>
+        <item name="android:background">@drawable/ad_attribution</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">AD</item>
+    </style>
+
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar" >
+        <item name="android:progressDrawable">@drawable/rate_custom_bg</item>
+    </style>
+
+    <style name="roundedimg">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+        <item name="color">#000</item>
+    </style>
+</resources>

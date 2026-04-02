@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/qureka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ads_bg_color"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/quAdAttr1"
+            style="@style/AdAttribution"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/quAdvertiser1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/font_medium"
+            android:text="Qureka"
+            android:textColor="@color/ads_all_color"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toRightOf="@+id/quAdAttr1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/quIcon1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quAdAttr1" />
+
+        <TextView
+            android:id="@+id/quHeadline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/font_bold"
+            android:maxLines="1"
+            android:text="Mega quiz for 5,00,000 coins live"
+            android:textColor="@color/ads_all_color"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/quBody1"
+            app:layout_constraintLeft_toRightOf="@+id/quIcon1"
+            app:layout_constraintTop_toBottomOf="@+id/quAdAttr1" />
+
+        <TextView
+            android:id="@+id/quBody1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/font_medium"
+            android:maxLines="2"
+            android:text="A Special Bank PO &amp; Clerk Quiz for Exams will help you learn more!"
+            android:textColor="@color/ads_all_color"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/quMedia1"
+            app:layout_constraintLeft_toRightOf="@+id/quIcon1"
+            app:layout_constraintTop_toBottomOf="@+id/quHeadline1" />
+
+        <ImageView
+            android:id="@+id/quMedia1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quIcon1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/quCta1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ads_cta_button"
+            android:fontFamily="@font/font_medium"
+            android:gravity="center"
+            android:text="Play &amp; Win"
+            android:textColor="@color/ads_cta_txt_color"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quMedia1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/qureka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ads_bg_color"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/quIcon2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/quHeadline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/font_bold"
+            android:maxLines="1"
+            android:text="Mega quiz for 5,00,000 coins live"
+            android:textColor="@color/ads_all_color"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/quAdAttr2"
+            app:layout_constraintLeft_toRightOf="@+id/quIcon2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/quAdAttr2"
+            style="@style/AdAttribution"
+            android:layout_marginHorizontal="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/quMedia2"
+            app:layout_constraintLeft_toRightOf="@+id/quIcon2"
+            app:layout_constraintTop_toBottomOf="@+id/quHeadline2" />
+
+        <TextView
+            android:id="@+id/quAdvertiser2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_medium"
+            android:text="Qureka"
+            android:textColor="@color/ads_all_color"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/quMedia2"
+            app:layout_constraintLeft_toRightOf="@+id/quAdAttr2"
+            app:layout_constraintTop_toBottomOf="@+id/quHeadline2" />
+
+        <ImageView
+            android:id="@+id/quMedia2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quIcon2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quMedia2">
+
+            <TextView
+                android:id="@+id/quBody2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:fontFamily="@font/font_medium"
+                android:text="A Special Bank PO &amp; Clerk Quiz for Exams will help you learn more!"
+                android:textColor="@color/ads_all_color"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/quCta2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="2"
+                android:background="@drawable/ads_cta_button"
+                android:fontFamily="@font/font_medium"
+                android:gravity="center"
+                android:text="Play &amp; Win"
+                android:textColor="@color/ads_cta_txt_color"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/qureka3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ads_bg_color"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/quMedia3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/qu3LL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/iconCV3"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/quIcon3"
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:adjustViewBounds="true" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/quHeadline3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/font_bold"
+                            android:maxLines="2"
+                            android:text="Mega quiz for 5,00,000 coins live"
+                            android:textColor="@color/ads_all_color"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/quAdAttr3"
+                                style="@style/AdAttribution"
+                                android:layout_marginHorizontal="5dp" />
+
+                            <TextView
+                                android:id="@+id/quAdvertiser3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/font_medium"
+                                android:text="Qureka"
+                                android:textColor="@color/ads_all_color"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/quBody3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/font_medium"
+                    android:text="A Special Bank PO &amp; Clerk Quiz for Exams will help you learn more!"
+                    android:textColor="@color/ads_all_color"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toTopOf="@+id/quCta3RL"
+                    app:layout_constraintTop_toBottomOf="@+id/qu3LL" />
+
+                <LinearLayout
+                    android:id="@+id/quCta3RL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/quBody3">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/quCta3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ads_cta_button"
+                        android:fontFamily="@font/font_medium"
+                        android:gravity="center"
+                        android:layout_gravity="bottom"
+                        android:text="Play &amp; Win"
+                        android:textColor="@color/ads_cta_txt_color"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

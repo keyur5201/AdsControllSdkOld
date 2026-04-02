@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="header">
+        <item>Play &amp; Win Coins Daily.</item>
+        <item>Play Quiz &amp; Win Upto 50,000 Coins</item>
+        <item>Quiz for 15,000 Coins calling you!📞</item>
+        <item>Pool prize is 50,000 coins</item>
+        <item>Tap here &amp; grab your share of 15,000 coins now! 😍</item>
+        <item>Aaj Math Quiz khela kya? </item>
+        <item>Who was the first president of India?</item>
+        <item>Time to Win Now!</item>
+        <item>Innings for 50,000 coins</item>
+        <item>Prize Pool: 50,000 Coins| No install required</item>
+        <item>Jeeto 10,000 Coins</item>
+        <item>Tech quiz for 50,000 coins open</item>
+        <item>Mega quiz for 5,00,000 coins live</item>
+        <item>Mega quiz for 5,00,000 coins open</item>
+        <item>Jeeto 10,000 Coins Abhi!</item>
+        <item>Learn and Win daily.</item>
+        <item>Time to Win Now!</item>
+        <item>Are You Ready to learn &amp; Win?</item>
+        <item>SSC Exam Quiz for 50,000 Coins is Live</item>
+        <item>Play SSC Exam Quiz &amp; Win Upto 50,000 Coins</item>
+        <item>Bank PO/Clerk Exam Quiz for 50,000 Coins is Live</item>
+        <item>Play Bank PO/Clerk Exam Quiz &amp; Win Upto 50,000 Coins</item>
+        <item>10+2 Exam Quiz for 50,000 Coins is Live</item>
+        <item>Play 10+2 Exam Quiz &amp; Win Upto 50,000 Coins</item>
+        <item>रोज़ खेलें और कॉइन्स जीतें</item>
+        <item>क्विज़ खेलें और 50,000 कॉइन तक जीतें</item>
+        <item>15000 कॉइन का क्विज़ आपका इंतज़ार कर रहा है!</item>
+        <item>पूल प्राइज है, 50000 कॉइन</item>
+        <item>यहां टैप करें और 15,000 कॉइन में से तुरंत अपना हिस्सा पाएं!</item>
+        <item>आज मैथ क्विज खेला क्या?</item>
+        <item>भारत के पहले राष्ट्रपति कौन थे?</item>
+        <item>जीतने का समय आ गया है!</item>
+        <item>50000 कॉइन की इनिंग</item>
+        <item>प्राइज पूल: 50000 कॉइन! इंस्टॉल करने की ज़रूरत नहीं है</item>
+        <item>जीतो 10,000 कॉइन</item>
+        <item>50000 कॉइन के लिए टेक क्विज़ चालु है</item>
+        <item>5,00,000 कॉइन का मेगा क्विज़ चल रहा है</item>
+        <item>5,00,000 कॉइन का मेगा क्विज़ चल रहा है</item>
+        <item>जीतो 10,000 कॉइन अभी</item>
+        <item>हर रोज़ सीखें और खेलें</item>
+        <item>जीतने का समय आ गया है!</item>
+        <item>क्या आप सीखने और जीतने के लिए तैयार हैं?</item>
+        <item>50,000 कॉइन के लिए SSC एग्जाम क्विज़ लाइव है</item>
+        <item>SSC एग्जाम क्विज़ खेलें और 50,000 कॉइन तक जीतें</item>
+        <item>50000 कॉइन के लिए बैंक पीओ/क्लर्क एग्जाम क्विज़ लाइव है</item>
+        <item>बैंक पीओ/क्लर्क एग्जाम क्विज़ खेलें और 50,000 कॉइन तक जीतें</item>
+        <item>50,000 कॉइन के लिए 10+2 एग्जाम क्विज़ लाइव है</item>
+        <item>10+2 एग्जाम क्विज़ खेलें और 50,000 कॉइन तक जीतें</item>
+    </string-array>
+
+    <string-array name="body">
+        <item>Come play Cricket contests running for 50,000 Coins daily.</item>
+        <item>No install required! Play Now</item>
+        <item>Play Qureka GK quiz to win now</item>
+        <item>Sharpen your Cricket knowledge &amp; win now 📖📚</item>
+        <item>Play GK quiz, increase your knowledge &amp; WIN 📚</item>
+        <item>Play and win coins now</item>
+        <item>Play History Quiz &amp; win coins now</item>
+        <item>Play Bollywood Quizzes  &amp; win coins daily</item>
+        <item>IPL Quiz Khelo aur Jeeto coins. No install required.</item>
+        <item>Play IPL contest! Khelo aur jeeto .</item>
+        <item>Show your Math knowledge &amp; Win Now</item>
+        <item>Test your tech skills &amp; win now</item>
+        <item>Play now &amp; win some coins. No install required.</item>
+        <item>Your chance of winning is high here! Play Now</item>
+        <item>Play GK, Math &amp; other quizzes &amp; Win Now</item>
+        <item>SSC, Bank PO clear karna hai? Exam ki tyaari karo aur jeeto.</item>
+        <item>Play SSC quiz, increase your knowledge &amp; WIN</item>
+        <item>A Special Bank PO &amp; Clerk Quiz for Exams will help you learn more!</item>
+        <item>Play Quiz &amp; Win Now</item>
+        <item>हर रोज 50,000 कॉइन के लिए चल रहे क्रिकेट कॉन्टेस्ट खेलें</item>
+        <item>इंस्टॉल करने की भी ज़रूरत नहीं, अभी खेलें</item>
+        <item>अभी जीतने के लिए Qureka GK क्विज खेलें</item>
+        <item>अपने क्रिकेट ज्ञान को बढ़ाएं और अभी जीतें</item>
+        <item>GK क्विज़ खेलें, अपनी नॉलेज बढ़ाएं और जीतें!</item>
+        <item>खेलें और अभी कॉइन्स जीतें</item>
+        <item>हिस्ट्री क्विज़ खेलें और तुरंत कॉइन्स जीतें</item>
+        <item>बॉलीवुड क्वीज़ खेलें और हर रोज़ कॉइन्स जीतें</item>
+        <item>बिना कोई ऐप इनस्टॉल किये IPL क्विज खेलो और कॉइन्स जीतो</item>
+        <item>IPL कॉन्टेस्ट खेलो और जीतो</item>
+        <item>अपना मैथ का ज्ञान दिखाओ और अभी जीतो</item>
+        <item>अपने टेक स्किल चेक करें और तुरंत जीतें</item>
+        <item>अभी खेलें और कॉइन्स जीतें, इंस्टॉल करने की ज़रूरत नहीं है</item>
+        <item>यहां आपके जीतने की संभावना बहुत अधिक है! अभी खेलें</item>
+        <item>जीके, मैथ और अन्य क्विज़ खेलें और तुरंत जीतें</item>
+        <item>SSC, बैंक पीओ क्लियर करना है? एग्जाम की तैयारी करो और जीतो</item>
+        <item>SSC क्विज़ खेलकर अपनी नॉलेज बढ़ाएं और जीतें</item>
+        <item>परीक्षा के लिए स्पेशल बैंक पीओ और क्लर्क क्विज़ आपको सीखने में मदद करेगा!</item>
+        <item>क्विज़ खेलें और अभी जीतें</item>
+    </string-array>
+</resources>
